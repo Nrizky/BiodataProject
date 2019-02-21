@@ -1,0 +1,146 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pict1"
+        android:layout_width="wrap_content"
+        android:layout_height="235dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/tom" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pict1"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-60dp"
+        android:fontFamily="cursive"
+        android:text="Tom Holland"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/pict2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_below="@id/pict1"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/spdy" />
+
+    <TextView
+        android:id="@id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pict1"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/pict2"
+        android:text="Tom Holland"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_toEndOf="@id/pict2"
+        android:text="Umur 22 tahun" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:layout_toEndOf="@id/pict2"
+        android:text="1 Juni 1996" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/pict2"
+        android:text="Weight (kg)"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text5"
+        android:layout_toEndOf="@id/pict2"
+        android:text="64Kg" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/text4"
+        android:text="Height (m)"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text5"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/text4"
+        android:text="1,73m" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@id/pict2"
+        android:layout_marginTop="40dp"
+        android:background="#000"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Biografi" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/text9"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:visibility="visible" />
+
+    <TextView
+
+        android:id="@+id/text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Thomas Stanley atau yang bisa disapa Tom Holland (lahir 1 Juni 1996; umur 22 tahun) adalah aktor dan penari asal Inggris yang dikenal karena bermain dalam Billy Elliot the Musical di Victoria Palace Theatre, London dan juga karena membintangi film The Impossible. Ia juga tampil di Screen International “UK Stars of Tomorrow – 2012” dan Variety “Youth Impact Report 2012”. Ia juga memenangkan Hollywood Spotlight Award dari peninjauan oleh National Board of Review di kategori “Breakthrough Actor”."
+        android:textAlignment="inherit" />
+
+</RelativeLayout>
+
+
+
+
+
